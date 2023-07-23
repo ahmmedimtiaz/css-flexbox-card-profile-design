@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background: #000;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.box {
+	width: 350px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff1a;
+	border-radius: 25px;
+	border: 2px solid #ffffff30;
+	text-align: center;
+}
+.box h2 {
+	color: #ffffff60;
+	margin: 15px;
+}
+.box h2 span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.box p {
+	color: #ffffff90;
+	font-size: 14px;
+}
+.btn a {
+	text-decoration: none;
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.134);
+	display: inline-block;
+	padding: 8px 15px;
+	margin: 25px 5px;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+.btn a:hover{
+    background: white;
+	color: #000000;
+}
+
+.socials {
+	margin-top: 8px;
+	display: flex;
+}
+.socials div {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	line-height: 38px;
+	margin: 0 5px;
+}
+.socials div.a1 {
+	background: #3b5998;
+}
+.socials div.a1:hover{
+    background-color: #fff;
+}
+.socials div.a2 {
+	background: #1c8ade;
+}
+.socials div.a2:hover{
+    background-color: #fff;
+}
+.socials div.a3 {
+	background: #b90b0b;
+}
+.socials div.a3:hover{
+    background-color: #fff;
+}
+.socials div.a4 {
+	background: #1e3050;
+}
+.socials div.a4:hover{
+    background-color: #fff;
+}
+.socials div a{
+    color: #fff;
+    font-size: 20px;
+}
+.socials div a:hover{
+    color: #000;
+}
+.avatar {
+	width: 120px;
+}
+.avatar img {
+	width: 100%;
+}
